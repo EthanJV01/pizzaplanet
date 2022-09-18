@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale:1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<title>Pizza Planet - Carrito</title>
+</head>
+
+<body>
+	
+	<header class="fondo">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  				<div class="container-fluid">
+					<a class="navbar-brand" href="index.html">
+						<img src="img/logo-pizzaplanet.png" alt="logo" claas="img-fluid" width="130px">
+					</a>
+  
+	  				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+    				</button>
+	  
+    				<div class="collapse navbar-collapse" id="navbarNav">
+      					<ul class="navbar-nav mx-auto" >
+							<li class="nav-item">
+          						<a class="nav-link" href="index.html">Inicio</a>
+							</li>
+        					<li class="nav-item">
+        						<a class="nav-link" href="menu.html">Menú</a>
+        					</li>
+        					<li class="nav-item">
+        						<a class="nav-link" href="promociones.html">Promociones</a>
+        					</li>
+		  					<li class="nav-item">
+        						<a class="nav-link" href="nosotros.html">Nosotros</a>
+        					</li>
+		  					<li class="nav-item">
+          						<a class="nav-link" href="arcade.html">Arcade</a>
+		  					</li>
+      					</ul>
+		
+		 				<ul class="navbar-nav ms-auto" >
+        					<li class="nav-item">
+        						<a href="carrito.html" i class="nav-link btn btn-order-select"><i class="las la-shopping-cart"></i>MI CARRITO</a>
+        					</li>
+      					</ul>
+    				</div>
+  				</div>
+			</nav>
+		</div>			
+	</header>
+	
+	<section id="carrito1" class="fondo">
+		<div class="container">
+			<div class="row">
+				<article class="col-md-6 col-sm-6 col-6">
+					<div class="card-carrito">
+						<h3>Rocket Promo</h3>
+						<img src="img/promo-06.png" alt="compra" class="img-fluid w-100">
+						<p>Te sorprendemos con una Rocket Pepperoni<br>Pizza, 8 boneless y un refresco de 2 L.</p>
+						<div class="row">
+							<article class="col-md-6">
+								<h4>Precio:</h4>
+							</article>
+							<article class="col-md-6">
+								<h5>L 369</h5>
+							</article>
+						</div>
+						<div class="row">
+							<article class="col-md-6">
+								<h4>Cantidad:</h4>
+							</article>
+							<article class="col-md-6">
+								<h5><a href="#">-</a>  1  <a href="#">+</a></h5>
+							</article>
+						</div>
+						<a href="#" class="btn btn-cards w-50">ORDENAR</a>
+					</div>
+				</article>
+				<article class="col-md-6 col-sm-6 col-6">
+					<div class="card-carrito2">
+						<h3>Tipo de Masa</h3>
+						<input type="radio" class="btn-check" name="masa" id="option1" autocomplete="off" checked="ola">
+						<label class="btn btn-secondary" for="option1">Delgada</label>
+						<input type="radio" class="btn-check" name="masa" id="option2" autocomplete="off">
+						<label class="btn btn-secondary" for="option2">Pan Pizza</label>
+						
+						<h3>Tamaño</h3>
+						<input type="radio" class="btn-check" name="tamano" id="option3" autocomplete="off" checked>
+						<label class="btn btn-secondary" for="option3">Grande</label>
+						<input type="radio" class="btn-check" name="tamano" id="option4" autocomplete="off">
+						<label class="btn btn-secondary" for="option4">Gigante</label>
+						
+						<h3>Salsa</h3>
+						<input type="radio" class="btn-check" name="salsa" id="option5" autocomplete="off" checked>
+						<label class="btn btn-secondary" for="option5">Barbacoa</label>
+						<input type="radio" class="btn-check" name="salsa" id="option6" autocomplete="off">
+						<label class="btn btn-secondary" for="option6">Ranch</label>
+						
+						<h3>Bebida</h3>
+						<input type="radio" class="btn-check" name="bebida" id="option7" autocomplete="off" checked>
+						<label class="btn btn-secondary" for="option7">Coca Cola</label>
+						<input type="radio" class="btn-check" name="bebida" id="option8" autocomplete="off">
+						<label class="btn btn-secondary" for="option8">Sprite</label>
+					</div>
+				</article>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="row">
+			<article class="col-md-2 col-sm-2 col-4">
+				<img src="img/logo-pizzaplanet.png" alt="logo" class="img-fluid">
+			</article>
+			<article class="col-md-7 col-sm-6 col-8">
+				<p>Orgullosamente parte de Pizza Planet Honduras</p>
+				<p>
+					<b><a href="#">Proveedores</a> | <a href="#">Contacto</a> | <a href="#">LinkedIn</a> | <a href="#">Empleo</a> | <a href="#">Línea de Ética</a></b>
+				</p>
+				<h6>©2022 Pizza Planet - Todos los derechos reservados</h6>
+				<p><a href="#">Política de Privacidad</a></p>
+			</article>
+			<article class="col-md-3 col-sm-3 col-12 centered">
+				<h5><a aria-current="page" href="#"><i class="lab la-facebook-f"></i></a> <a href="#"><i class="lab la-instagram"></i></a> <a href="#"><i class="lab la-twitter"></i></a> <a href="#"><i class="lab la-youtube"></i></a></h5>
+				<img src="img/logo-citrus-blanco.png" alt="logo" width="15%">
+			</article>
+		</div>
+	</footer>
+	
+</body>
+</html>

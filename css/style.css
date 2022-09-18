@@ -6,21 +6,13 @@ body{
 	color: #fff;
 }
 
-.fondo{
-	
+.fondo{	
 background: linear-gradient(90deg, rgba(0,0,89,1) 0%, rgba(63,3,93,1) 100%);
 }
 
 header{
 	padding: 40px 0;
 	color: #fff;
-}
-
-#hero{
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	padding: 30px 0;
 }
 
 #infinito{
@@ -73,6 +65,11 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+
 footer h6{
 	color: #989898;
 	font-size: 14px;
@@ -86,7 +83,7 @@ footer h5{
 	padding: 3% 0;
 }
 
-.marimg{
+.marrow{
 	margin-bottom: 30px;
 }
 
@@ -104,6 +101,58 @@ footer h5{
 	line-height: 25px;*/
 	padding: 10px 20px;
 	align-items: center;
+	box-shadow: 2px 2px 15px 3px #a885d8;
+}
+
+.btn-order:hover{
+	font-family: 'Arsenal', sans-serif;
+	background-color: #fff;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 100px;
+	/*width: 120px;
+	height: 40px;
+	line-height: 25px;*/
+	padding: 10px 20px;
+	align-items: center;
+	box-shadow: 2px 2px 15px 3px #fff;
+}
+
+.btn-order-select{
+	font-family: 'Arsenal', sans-serif;
+	background-color: #EFA256;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 100px;
+	/*width: 120px;
+	height: 40px;
+	line-height: 25px;*/
+	padding: 10px 20px;
+	align-items: center;
+	box-shadow: 2px 2px 15px 3px #EFA256;
+}
+
+.btn-order-select:hover{
+	font-family: 'Arsenal', sans-serif;
+	background-color: #fff;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 100px;
+	/*width: 120px;
+	height: 40px;
+	line-height: 25px;*/
+	padding: 10px 20px;
+	align-items: center;
+	box-shadow: 2px 2px 15px 3px #fff;
 }
 
 #first{
@@ -142,7 +191,7 @@ footer h5{
 	font-size: 30px; 
 	text-transform: uppercase;
 	margin: 10px;
-	color: #EFA256;
+	color: #66C6DF;
 }
 
 .card-product h2{
@@ -157,8 +206,61 @@ footer h5{
 	font-size: 20px;
 }
 
-a:hover{
-	color: #EFA256;
+.carousel-caption{
+	font-size: 70px;
+	color: #FFF;
+	text-align: right;
+	align-content: right;
+}
+
+.capa-relative{
+	position: relative;
+	overflow: hidden;
+}
+
+.capa-absolute{
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	overflow: hidden;
+}
+
+.capa-relative h5{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.capa-overlay{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.45);
+	overflow: hidden;
+}
+
+.capa-overlay-nosotros{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.45);
+	overflow: hidden;
+	border-radius: 100px;	
+}
+
+.buzz{
+	border-radius: 100px;	
+}
+
+.parrafo{
+	margin-top: 50px;
 }
 
 .btn-cards{
@@ -203,6 +305,15 @@ a:hover{
 	padding: 40px;
 }
 
+.card-option{
+	border-radius: 100px 0px;
+	color: #000;
+	box-shadow: 2px 2px 15px 3px #fff;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 60px;
+}
+
 .card-option h1{
 	font-size: 40px;
 	font-weight: bolder;
@@ -223,13 +334,79 @@ a:hover{
 	margin: 20px 10px;
 }
 
-.card-option{
-	border-radius: 100px 0px;
+.card-carrito{
+	border-radius: 100px 0px 50px 100px;
 	color: #000;
+	background-color: #fff;
 	box-shadow: 2px 2px 15px 3px #fff;
 	overflow: hidden;
 	position: relative;
 	margin-bottom: 60px;
+	text-align: center;
+	padding: 20px;
+}
+
+.card-carrito h3{
+	font-size: 50px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #a885d8;
+}
+
+.card-carrito p{
+	font-size: 25px;
+	font-weight: 500;
+	color: #000;
+}
+
+.card-carrito h4{
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+}
+
+.card-carrito article a{
+	font-size: 30px;
+	font-weight: 700;
+	color: #EFA256;
+}
+
+.card-carrito article a:hover{
+	font-size: 30px;
+	font-weight: 700;
+	color: #a885d8;
+}
+
+.card-carrito h5{
+	font-size: 30px;
+	font-weight: 700;
+	color: #EFA256;
+}
+
+.card-carrito2{
+	border-radius: 0px 100px 100px 0px;
+	color: #000;
+	background-color: #fff;
+	box-shadow: 2px 2px 15px 3px #fff;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 60px;
+	text-align: left;
+	padding: 60px;
+}
+
+.card-carrito2 h3{
+	font-size: 30px;
+	font-weight: 600;
+	color: #000;
+}
+
+.btn-secondary{
+	width: 150px;
+	margin-right: 100px;
+	border-radius: 100px 100px;
+	background-color: #a885d8;
+	margin-bottom: 20px;
 }
 
 #other{
@@ -244,6 +421,6 @@ a:hover{
 
 @media (max-width:800px){
 	.btn-cards{
-	font-size: 8px;
-}
+		font-size: 8px;
+	}
 }

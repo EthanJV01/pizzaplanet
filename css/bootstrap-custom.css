@@ -1,32 +1,38 @@
 a{
 	outline:0 !important;
-	color: #EFA256;
+	color: #2293D7;
 }
+
 .navbar-light {
 	background-color:transparent!important;
 	font-size:15px;
 }
+
 .navbar-light .navbar-nav .nav-link{
 	color:#fff;	
-	font-weight: 500;
+	font-weight: 700;
 	padding: 5px 17px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	transition: 0.4s ease-in-out;
+	transition: 0.1s ease-in-out;
 	
 }
+
 .navbar-light .navbar-nav .nav-link:hover{
 	color:#EFA256;
 	text-decoration: underline;
 	transition: 0.4s ease-in-out;
 }
+
 .navbar-light .navbar-nav .active .nav-link{
 	background-color:transparent;
 	color:#EFA256;
 }
+
 .navbar-light .navbar-nav .active .nav-link:hover{
 	background-color:transparent;
-	color:#EFA256;
+	color:#2293D7;
+	
 }
 
 
@@ -91,12 +97,25 @@ a{
 
 
 .navbar-toggler i{
-	color: #fff;
-	font-size: 30px;
+	color: #00d9d9;
+	font-size: 20px;
 }
 
+.carousel .carousel-inner{
+	height: 800px;
+}
 
+.carousel .carousel-item {
+  	height: 800px;
+}
 
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 800px;
+}
 
 
 

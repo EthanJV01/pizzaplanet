@@ -12,7 +12,6 @@
 <!-- SEO -->
 <meta name="Description" content="Página de Arcade de Pizza Planet para ver los juegos y comprar en línea">
 <meta name="Keywords" content="Arcade Pizza Planet, Juegos Pizza Planet, Carritos chocones Pizza Planet Honduras, Laser Tag Pizza Planet, Halo fire team Pizza Planet, nba hoops pizza planet">	
-	
 </head>
 
 <body>
@@ -26,7 +25,7 @@
 					</a>
   
 	  				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<i class="las la-bars"></i>
+						<span class="navbar-toggler-icon"></span>
     				</button>
 	  
     				<div class="collapse navbar-collapse" id="navbarNav">
@@ -35,7 +34,7 @@
           						<a class="nav-link" href="index.html">Inicio</a>
 							</li>
         					<li class="nav-item">
-        						<a class="nav-link" href="menu.html">Menú</a>
+        						<a class="nav-link" href="#">Menú</a>
         					</li>
         					<li class="nav-item">
         						<a class="nav-link" href="promociones.html">Promociones</a>
@@ -50,7 +49,7 @@
 		
 		 				<ul class="navbar-nav ms-auto" >
         					<li class="nav-item">
-        						<a href="#" i class="nav-link btn btn-order"><i class="las la-shopping-cart"></i>MI CARRITO</a>
+        						<a href="carrito.html" i class="nav-link btn btn-order"><i class="las la-shopping-cart"></i>MI CARRITO</a>
         					</li>
       					</ul>
     				</div>
@@ -62,40 +61,83 @@
 	<section id="hero" class="fondo">
 		<div class="container">
 		
-			<div class="row">
-				<article class="col-md-4 col-sm-6 col-12">	
+			<div class="row">	
+				<article class="col-md-4 col-sm-6 col-12 marrow">
 					<a href="#">
-						<img src="img/1.png" alt="carritos" class="img-fluid marimg">
+					<div class="capa-relative">
+						<img src="img/g_1.jpg" alt="carritos" class="img-fluid">
+						<div class="capa-absolute capa-overlay">	
+						<div class="capa-absolute">	
+						<h5>CARRITOS CHOCONES<br>L. 100</h5>
+						</div>
+						</div>
+						</div>
+					</a>
+				</article>
+				
+		
+				<article class="col-md-4 col-sm-6 col-12 marrow">
+					<a href="#">
+						<div class="capa-relative">
+						<img src="img/g_2.jpg" alt="hockey" class="img-fluid">
+						<div class="capa-absolute capa-overlay">	
+						<div class="capa-absolute">	
+						<h5>AIR HOCKEY<br>L. 150</h5>
+						</div>
+						</div>
+						</div>
 					</a>
 				</article>	
 		
-				<article class="col-md-4 col-sm-6 col-12">
+				<article class="col-md-4 col-sm-6 col-12 marrow">
 					<a href="#">
-						<img src="img/2.png" alt="hockey" class="img-fluid marimg">
+						<div class="capa-relative">
+						<img src="img/g_6.jpg" alt="laser" class="img-fluid">
+						<div class="capa-absolute capa-overlay">	
+						<div class="capa-absolute">	
+						<h5>LASER TAG<br>L. 200</h5>	
+						</div>
+						</div>
+						</div>	
 					</a>
 				</article>	
 		
-				<article class="col-md-4 col-sm-6 col-12">
+				<article class="col-md-4 col-sm-6 col-12 marrow">
 					<a href="#">
-						<img src="img/3.png" alt="laser" class="img-fluid marimg">
-					</a>
-				</article>	
-		
-				<article class="col-md-4 col-sm-6 col-12">
-					<a href="#">
-	 					<img src="img/4.png" alt="halo" class="img-fluid marimg">
+						<div class="capa-relative">
+						<img src="img/g_4.jpg" alt="halo" class="img-fluid">
+						<div class="capa-absolute capa-overlay">	
+						<div class="capa-absolute">	
+						<h5>HALO<br>L. 190</h5>	
+						</div>
+						</div>
+						</div>	
 					</a>
 				</article>
 		
-				<article class="col-md-4 col-sm-6 col-12">
+				<article class="col-md-4 col-sm-6 col-12 marrow">
 					<a href="#">
-	 					<img src="img/5.png" alt="hoops" class="img-fluid marimg">	
+						<div class="capa-relative">
+						<img src="img/g_3.jpg" alt="ice-ball" class="img-fluid">	
+						<div class="capa-absolute capa-overlay">	
+						<div class="capa-absolute">	
+						<h5>ICE-BALL<br>L. 180</h5>	
+						</div>
+						</div>
+						</div>	
 					</a>
 				</article>
 		
-				<article class="col-md-4 col-sm-6 col-12">
+				<article class="col-md-4 col-sm-6 col-12 marrow">
 					<a href="#">
-	 					<img src="img/6.png" alt="luigis" class="img-fluid marimg">
+						<div class="capa-relative">
+						<img src="img/g_5.jpg" alt="basketball" class="img-fluid">
+						<div class="capa-absolute capa-overlay">	
+						<div class="capa-absolute">	
+						<h5>BASKETBALL PRO<br>L. 160</h5>	
+						</div>
+						</div>
+						</div>	
 					</a>
 				</article>	
 			</div>	
@@ -128,12 +170,12 @@
 	
 	
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0CMTR3SE0Z"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-		gtag('config', 'G-0CMTR3SE0Z');
-	</script>
+  gtag('config', 'G-0CMTR3SE0Z');
+</script>
 </body>
 </html>
